@@ -7,7 +7,6 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import { ListComponent } from './list/list.component';
 import { HttpClientModule } from '@angular/common/http';
 
-
 @NgModule({
   declarations: [AppComponent, ListComponent],
   imports: [BrowserModule, HttpClientModule, ApolloModule, HttpLinkModule],
